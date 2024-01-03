@@ -4,6 +4,7 @@ struct Vector
 {
     int size;
     double* elem;
+    
 };
 
 void vector_init(Vector& v, int size)
